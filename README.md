@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Medical Chatbot
 
 ## Project Overview
@@ -28,5 +29,18 @@ This project aims to develop a Medical Chatbot designed to assist patients with 
 - **Machine Learning Model:** Llama 2 (for AI-driven chatbot functionality)
 - **Database:** MySQL (for storing user interactions and feedback)
 - **API Integration:** Integration with medical databases and healthcare services
+=======
+# HealthyNator\_\_Datathon
+
+Check out our project demo [here](https://devfolio.co/projects/healthynator-cc0d).
+
+## For Starting Frontend
+
+`npm run frontend`
+
+## For Starting Backend
+
+`npm run backend`
+>>>>>>> 14bad79 (Initial commit with existing project files)
 
 
