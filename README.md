@@ -29,7 +29,11 @@ This project aims to develop a Medical Chatbot designed to assist patients with 
 - **Machine Learning Model:** Llama 2 (for AI-driven chatbot functionality)
 - **Database:** MySQL (for storing user interactions and feedback)
 - **API Integration:** Integration with medical databases and healthcare services
-=======
+
+
+# "frontend": "cd client && npm run dev",
+# "backend": "cd server && nodemon index.js"
+
 
 
 
