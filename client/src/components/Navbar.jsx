@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../css/Navbar.css";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import {Link as ScrollLink} from 'react-scroll';
 
@@ -63,14 +63,14 @@ function Navbar() {
           }}>About
           </p></ScrollLink>
           <div className="flex flex-row gap-[0vh]">
-            <Link to="sign" className="bg-[#fff] rounded-l-[32px] px-[1vw] pt-[0.7vh] pb-[0.4vh] border-[#9acd32] border-4" style ={{
+            <Link to="sign" className="bg-yellow-400 rounded-l-[32px] px-[1vw] pt-[0.7vh] pb-[0.4vh] border-[#54cd32] border-4" style ={{
               color: "black",
             }}>Sign In</Link>
             <ScrollLink to="/sign" id="signUp" onClick={toggleMobileMenu} style={{
               cursor: 'pointer'
             }}>
             <Link to='sign'>
-              <p className="signBut" style={{
+              <p className="bg-yellow-400 rounded-l-[32px] px-[1vw] pt-[0.7vh] pb-[0.4vh] border-[#32cd56] border-4" style={{
                 color:'black',
                 borderRadius: '0px 32px 32px 0px',
                 borderColor: '#9acd32',
@@ -78,7 +78,7 @@ function Navbar() {
               }}>Sign Up</p></Link>
             </ScrollLink>
           </div>
-          
+
         </ul>
         <div className="buttonContainer">
           <button className="navbarMobileButton" onClick={toggleMobileMenu}>

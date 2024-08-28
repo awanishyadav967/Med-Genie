@@ -16,7 +16,7 @@ const HeaderPostLogin = ({ name }) => {
     <div className="w-full h-[15%] item-center justify-between flex px-2 py-2">
       <div
         className="flex justify-center items-center px-10
-      
+
       "
       >
         <img src={logo}></img>
