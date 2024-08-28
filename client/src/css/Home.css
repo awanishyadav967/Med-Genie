@@ -5,13 +5,19 @@
 
 }
 body {
-  margin: 0px 0px 0px 0px;
+  background-image: url('blob:https://web.whatsapp.com/c0e51db7-2d51-4702-be7d-1e99f73ad14d'); /* Corrected the syntax here */
+  background-size: cover; /* This makes the image cover the entire body */
+  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+  background-attachment: fixed; /* Makes the background image fixed when scrolling */
+  
+  margin: 0; /* Shortened syntax, no need to specify each value as 0px */
   background-color: #101010;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif; /* Added a fallback font */
   color: #ffffff;
   width: 100%;
   overflow-x: hidden;
 }
+
 .mainTitle {
   font-family: Roboto;
   font-weight: bold;
@@ -26,7 +32,7 @@ body {
   
 }
 #gradCol {
-  background: -webkit-linear-gradient(0deg, #77f216, #16f2ca);
+  background: -webkit-linear-gradient(0deg, #8016f2, #16f2ca);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -43,6 +49,23 @@ body {
   align-items: center;
   padding-right: 5%;
 }
+#line1{
+  font-size: 40px;
+}
+
+#line2{
+  font-size: 40px;
+}
+#li{
+  font-size: 58px;
+}
+#heading{
+  font-size: 45px;
+  /* font-weight: 500; */
+}
+/* #feat{
+  font-size: 30px;
+} */
 
 #mainFlex > div > img {
   padding-top: 60px;
@@ -123,7 +146,7 @@ body {
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 5px;
-  background: -webkit-linear-gradient(0deg, #77f216, #16f2ca);
+  background: -webkit-linear-gradient(0deg, #8016f2, #16f2ca);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
