@@ -31,7 +31,7 @@ This project aims to develop a Medical Chatbot designed to assist patients with 
 - **API Integration:** Integration with medical databases and healthcare services
 
 
-# "frontend": "cd client && npm run dev",
+# "frontend": "cd client ,npm install && npm run dev",
 # "backend": "cd server && nodemon index.js"
 
 
