@@ -31,15 +31,25 @@ function UserProfile() {
 
   console.log(finalUserObject);
 
-  let bmi =
-    (finalUserObject.weight / finalUserObject.height / finalUserObject.height) *
-    10000;
+  //let bmi = (finalUserObject.weight / ((finalUserObject.height / 100) ** 2));
+  let bmi=24.5;
+
   finalUserObject.height = finalUserObject.height + " cm";
   finalUserObject.weight = finalUserObject.weight + " kg";
 
   let history_cards = [
     {
-      date: "2022-10-10",
+      date: "2024-12-10",
+      time: "12:00",
+      doctor: "Dr. Parul Madan",
+      hospital: "Bhanushali Hospital",
+      status: "Cancelled",
+      index: 2,
+      doctor_img:
+        "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png",
+    },
+    {
+      date: "2024-10-10",
       time: "10:00",
       doctor: "Dr. Avanish Yadav",
       hospital: "Fortis Hospital",
@@ -49,7 +59,7 @@ function UserProfile() {
         "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png",
     },
     {
-      date: "2022-10-10",
+      date: "2024-10-10",
       time: "10:00",
       doctor: "Dr. Utkash Kesarwani",
       hospital: "Max Hospital",
@@ -59,7 +69,7 @@ function UserProfile() {
         "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png",
     },
     {
-      date: "2023-12-10",
+      date: "2024-12-10",
       time: "12:00",
       doctor: "Dr. Pavani Jain",
       hospital: "Bhanushali Hospital",
@@ -68,6 +78,7 @@ function UserProfile() {
       doctor_img:
         "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png",
     },
+
   ];
 
   // Now, userObject contains the object retrieved from local storage
