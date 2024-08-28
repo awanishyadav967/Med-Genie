@@ -13,7 +13,8 @@ const Footer = () => {
               height: '70px',
               margin: '0'
             }}/>
-            <p>Generalizing aid from home </p>
+            <p>Extending Support from</p>
+            <p>the Comfort of Home</p>
             <ul>
               <li>
                 <img src="/SocialMedia/Facebook.svg"></img>

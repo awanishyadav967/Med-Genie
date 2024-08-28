@@ -63,7 +63,7 @@ function Navbar() {
           }}>About
           </p></ScrollLink>
           <div className="flex flex-row gap-[0vh]">
-            <Link to="sign" className="bg-[#fff] rounded-l-[32px] px-[1vw] pt-[0.7vh] pb-[0.4vh] border-[#36e55d] border-4" style ={{
+            <Link to="sign" className="bg-[#fff] rounded-l-[32px] px-[1vw] pt-[0.7vh] pb-[0.4vh] border-[#9acd32] border-4" style ={{
               color: "black",
             }}>Sign In</Link>
             <ScrollLink to="/sign" id="signUp" onClick={toggleMobileMenu} style={{
@@ -73,7 +73,7 @@ function Navbar() {
               <p className="signBut" style={{
                 color:'black',
                 borderRadius: '0px 32px 32px 0px',
-                borderColor: '#36e55d',
+                borderColor: '#9acd32',
                 borderWidth: '4px'
               }}>Sign Up</p></Link>
             </ScrollLink>

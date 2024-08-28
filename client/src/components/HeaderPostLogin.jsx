@@ -22,7 +22,7 @@ const HeaderPostLogin = ({ name }) => {
         <img src={logo}></img>
       </div>
       <div className="flex items-center justify-center gap-x-24 text-xl font-semibold mt-8">
-        <Link to="/">Homeeee</Link>
+        <Link to="/">Home</Link>
         <Link to="/">About us</Link>
         <div
           className="flex items-center justify-center gap-x-4 px-6"

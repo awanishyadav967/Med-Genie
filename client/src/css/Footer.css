@@ -41,7 +41,7 @@
 
 .footerGreen {
   font-size: 24px;
-  color: #3cf75d;
+  color: -webkit-linear-gradient(0deg, #8016f2, #16f2ca);;
 }
 
 .footerContainer {
