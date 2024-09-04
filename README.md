@@ -32,7 +32,6 @@ This project aims to develop a Medical Chatbot designed to assist patients with 
 - **Backend:** Node.js with Express.js
 - **Database:** MongoDB
 - **API Integration:** Gemini API for natural language processing and symptom analysis
-- **API Integration:** Integration with medical databases and healthcare services
 
 ## System Architecture
 The platform’s architecture is divided into three main components:
