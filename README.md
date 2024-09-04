@@ -45,14 +45,14 @@ The platform’s architecture is divided into three main components:
 
 To set up the project locally, follow these steps:
 
--**Clone the repository:**
+- **Clone the repository:**
 
 ```
 git clone https://github.com/yourusername/healthcare-platform.git
 cd healthcare-platform
 ```
 
--**Install dependencies:**
+- **Install dependencies:**
 
 ```
 npm install
@@ -62,7 +62,7 @@ cd ..
 ```
 
 
--**Set up environment variables:** Create a .env file in the root directory and add the following variables
+- **Set up environment variables:** Create a .env file in the root directory and add the following variables
 
 ```
 MONGODB_URI=your_mongodb_connection_string
@@ -73,12 +73,12 @@ EMAIL_USER=your_email_address
 EMAIL_PASS=your_email_password
 ```
 
--**Run the development server:**
+- **Run the development server:**
 
 ```npm run dev```
 
 
--**Access the platform:** Open your browser and navigate to ```http://localhost:3000```
+- **Access the platform:** Open your browser and navigate to ```http://localhost:3000```
 
 
 ## Usage
