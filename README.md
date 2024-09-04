@@ -1,5 +1,7 @@
 
-# Medical Chatbot
+# MED-GENIE-Medical Chatbot
+![Screenshot (180)](https://github.com/user-attachments/assets/c704a855-47ad-4ebe-9770-fb1401b2bb35)
+
 
 ## Project Overview
 
