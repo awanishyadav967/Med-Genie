@@ -47,10 +47,10 @@ To set up the project locally, follow these steps:
 
 -**Clone the repository:**
 
-bash
-Copy code
+```
 git clone https://github.com/yourusername/healthcare-platform.git
 cd healthcare-platform
+```
 
 -**Install dependencies:**
 
