@@ -83,19 +83,19 @@ npm run dev
 
 ## Usage
 
--**Signup/Login:** Create an account or log in with your credentials.
--**Interact with the Chatbot:** Enter symptoms and receive real-time medical advice.
--**Calculate BMI:** Automatically compute your BMI and get personalized health advice.
--**Book Appointments:** Schedule doctor appointments based on the chatbot’s analysis.
--**Generate Reports:** Download or receive a PDF summary of your interactions.
+- **Signup/Login:** Create an account or log in with your credentials.
+- **Interact with the Chatbot:** Enter symptoms and receive real-time medical advice.
+- **Calculate BMI:** Automatically compute your BMI and get personalized health advice.
+- **Book Appointments:** Schedule doctor appointments based on the chatbot’s analysis.
+- **Generate Reports:** Download or receive a PDF summary of your interactions.
 
 ## Future Work
 
--**Enhanced AI Capabilities:** Integrating newer AI models for more accurate symptom analysis.
--**Personalization:** More tailored health advice based on user profiles and historical health data.
--**EHR Integration:** Linking with Electronic Health Records for comprehensive patient care.
--**Telemedicine:** Adding features for remote consultations and real-time health monitoring.
--**Data Privacy:** Implementing advanced security measures to protect patient data.
+- **Enhanced AI Capabilities:** Integrating newer AI models for more accurate symptom analysis.
+- **Personalization:** More tailored health advice based on user profiles and historical health data.
+- **EHR Integration:** Linking with Electronic Health Records for comprehensive patient care.
+- **Telemedicine:** Adding features for remote consultations and real-time health monitoring.
+- **Data Privacy:** Implementing advanced security measures to protect patient data.
 
 
 
