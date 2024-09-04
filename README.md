@@ -54,31 +54,31 @@ cd healthcare-platform
 
 -**Install dependencies:**
 
-bash
-Copy code
+```
 npm install
 cd client
 npm install
 cd ..
+```
+
 
 -**Set up environment variables:** Create a .env file in the root directory and add the following variables
 
-makefile
-Copy code
+```
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_gemini_api_key
 EMAIL_SERVICE=your_email_service_provider
 EMAIL_USER=your_email_address
 EMAIL_PASS=your_email_password
+```
 
 -**Run the development server:**
 
-bash
-Copy code
-npm run dev
+```npm run dev```
 
--**Access the platform:** Open your browser and navigate to http://localhost:3000.
+
+-**Access the platform:** Open your browser and navigate to ```http://localhost:3000```
 
 
 ## Usage
