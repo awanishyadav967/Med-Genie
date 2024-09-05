@@ -47,35 +47,37 @@ To set up the project locally, follow these steps:
 - **Clone the repository:**
 
 ```
-git clone https://github.com/yourusername/healthcare-platform.git
-cd healthcare-platform
+git@github.com:awanishyadav967/Med-Genie.git
 ```
 
 - **Install dependencies:**
 
 ```
-npm install
-cd client
-npm install
-cd ..
+1. cd client
+2. npm install(install necessary dependency)
+3. npm run dev
+
+```
+- Open second terminal for backend
+```
+1. cd server
+2. (install necessary dependency)
+3. npx nodemon index.js
+
 ```
 
 
-- **Set up environment variables:** Create a .env file in the root directory and add the following variables
+
+- **Set up environment variables:** Create a .env file in the server directory and add the following variables
 
 ```
 MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_gemini_api_key
+JWT_SECRET=your_jwt_secret
 EMAIL_SERVICE=your_email_service_provider
 EMAIL_USER=your_email_address
 EMAIL_PASS=your_email_password
 ```
-
-- **Run the development server:**
-
-```npm run dev```
-
 
 - **Access the platform:** Open your browser and navigate to ```http://localhost:3000```
 
