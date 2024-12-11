@@ -71,7 +71,7 @@ git@github.com:awanishyadav967/Med-Genie.git
 - **Set up environment variables:** Create a .env file in the server directory and add the following variables
 
 ```
-MONGODB_URI=your_mongodb_connection_string
+CONNECTION_URL=your_mongodb_connection_string
 GEMINI_API_KEY=your_gemini_api_key
 JWT_SECRET=your_jwt_secret
 EMAIL_SERVICE=your_email_service_provider
