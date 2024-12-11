@@ -1,7 +1,7 @@
 import React from "react";
 
 import HeaderPostLogin from "../components/HeaderPostLogin";
-import AppointmentCard from "../components/appointmentcard";
+import AppointmentCard from "../components/AppointmentCard";
 import { useAppContext } from "../App";
 
 const MyAppointments = () => {
