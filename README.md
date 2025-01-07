@@ -99,6 +99,10 @@ EMAIL_PASS=your_email_password
 - **Data Privacy:** Implementing advanced security measures to protect patient data.
 
 
+## Presentation Link
+
+[Google Drive Presentation Link](https://docs.google.com/presentation/d/1OiZPaiAKpduTLpWHaIyfXaaHhY2SHicp/edit?usp=drive_link&ouid=113055793812663955704&rtpof=true&sd=true)
+
 
 
 
